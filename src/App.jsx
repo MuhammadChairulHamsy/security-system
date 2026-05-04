@@ -1,11 +1,9 @@
-import DashboardLayout from "./components/dashboard-layout"
+import { RouterProvider } from "react-router-dom"
+import router from "./router/router"
 
 function App() {
-  
   return (
-   <div>
-    <DashboardLayout/>
-   </div>
+   <RouterProvider router={router}/>
   )
 }
 
